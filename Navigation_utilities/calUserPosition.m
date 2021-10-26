@@ -3,7 +3,6 @@ clear all; clc;
 % Note: The Data folder should be put in the project directory (relative path)
 config; % run config.m script to retrieve GPS constants. 
 
-%import data from project working directory
 ephDataFile = fullfile(pwd, 'Data/eph.dat');
 rcvrDataFile = fullfile(pwd, 'Data/rcvr.dat');
 eph = importdata(ephDataFile);
