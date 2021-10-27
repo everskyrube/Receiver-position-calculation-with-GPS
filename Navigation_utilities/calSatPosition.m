@@ -35,9 +35,6 @@ while(error > 1e-12)
     E_old = Ek;
 end 
 
-%relativistic corretion term 
-deltr = F .* eph.e .* eph.sqrtA .* sin(Ek);
-
 %compute the true anomaly and argument of latitude
 vk = atan2((sqrt(1-eph.e^2))*sin(Ek)/(1-eph.e*cos(Ek)), (cos(Ek)-eph.e)/(1-eph.e*cos(Ek)));
 phi_k = vk + eph.w;
