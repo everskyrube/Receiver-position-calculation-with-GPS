@@ -35,15 +35,37 @@
 <div align="center" height="400"><img src="images/pseudocode.JPG"></div>
 
 <div>
- <p>Scripts</p>
- ```
- calUserPosition.m
- ```
- <p>This file is the main file to parse the ephemeris data, calculate the estimated user position and user clock bias.</p>
-
+ <p>Script Files</p>
 </div>
 
+```
+  calUserPosition.m
+```
+<p>This file is the main file to parse the ephemeris data, calculate the estimated user position and user clock bias.</p>
+
+```
+  config.m.m
+```
+<p>This file defines all GPS Constant variables </p>
+
+```
+  calSatPosition.m
+```
+<p>This function calculates the XYZ positions for all valid satellites</p>
+
+```
+  calSatClockBias.m
+```
+<p>This function output the Delta_t_SV only</p>
+
+```
+formatEphData.m
+```
+<p> This function reconstructs ephemeris data with indices for satellite positions calculation </p>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
 
 <!-- LICENSE -->
 ## License
