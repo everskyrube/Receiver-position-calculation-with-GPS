@@ -16,7 +16,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p>This work is implemented on MATLAB, and it solely uses raw pseudoranges and satellite ephemeris data as input, to calculate the receiver user position in ECEF the user clock bias.</p>
+<p>This work is implemented on MATLAB, and it solely uses raw pseudoranges and satellite ephemeris data as input, to calculate the receiver user position in ECEF, as well asthe user clock bias.</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -56,7 +56,7 @@
 ```
   calSatClockBias.m
 ```
-<p>This function output the Delta_t_SV only</p>
+<p>This function output the satellite clock bias, Delta_t_SV only</p>
 
 ```
   formatEphData.m
