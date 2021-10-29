@@ -35,7 +35,7 @@
 <div align="center" height="400"><img src="images/pseudocode.JPG"></div>
 
 <div>
- <p>Script and functions explanation</p>
+ <h2>Scripts and functions explanation</h2>
 </div>
 
 ```
