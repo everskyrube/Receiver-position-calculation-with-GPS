@@ -31,7 +31,8 @@
 <!-- USAGE EXAMPLES -->
 ## Code Description
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<p>The scripts are coded in logical order as the pseudocode below:</p>
+<div align="center" height="400"><img src="images/pseudocode.JPG"></div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
