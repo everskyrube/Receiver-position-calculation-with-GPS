@@ -59,7 +59,7 @@
 <p>This function output the Delta_t_SV only</p>
 
 ```
-formatEphData.m
+  formatEphData.m
 ```
 <p> This function reconstructs ephemeris data with indices for satellite positions calculation </p>
 
