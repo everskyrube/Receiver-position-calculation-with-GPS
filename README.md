@@ -1,27 +1,51 @@
 <div id="top"></div>
 [![Contributors][contributors-shield]][https://github.com/everskyrube/]
 
-# Receiver-position-calculation-with-GPS
-This work is implemented on MatLab, and it uses raw pseudoranges and satellite ephemeris data as input, to calculate the user position in ECEF as well as the user clock bias. 
+<h1 align="center">Receiver-position-calculation-with-GPS </h1>
+ 
+### Table of contents
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<p>This work is implemented on MatLab, and it solely uses raw pseudoranges and satellite ephemeris data as input, to calculate the receiver user position in ECEF the user clock bias.</p>
 
-Note: Requires the script config.m to be in the same directory.
-Note: The Data folder should be put in the project directory (relative path)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Prerequisites
 
-This work is implemented on MATLAB R2015a, no extra toolbox is required to compile the calculation script. 
-
-  ```
-  funtion here
-  
-  ```
+<p> This work is implemented on MATLAB R2015a, no extra toolbox is required to compile the calculation script. </p>
+<p> Note: Requires the script config.m to be in the same folder directory. </p>
+<p> Note: The data folder should be put in the project directory (relative path) </p>
   
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+This is the assignment work of course AAE6102 - Satellite Communication and Navigation, and not distributed for non-research usage. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
