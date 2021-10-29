@@ -53,11 +53,10 @@ while norm(delta_x(1:3)) >= 1e-4
     delta_x = inv(H'*H)*H'*delta_pr;
 end
 
-%final result of user position
-final_x = x0 + delta_x;
+%final result of user position, delta_x converges and x0 = x0 + delta_x;
 %convert user clock bias, delta_x(4) = -c * delta_tu
-final_x(4) = final_x(4)/-c; 
-disp(final_x); %output final_x matrix [x_u, y_u, z_u, user_clock_bias]
+x0(4) = x0(4)/-c; 
+disp(x0); %output final_x matrix [x_u, y_u, z_u, user_clock_bias]
 
 
 
