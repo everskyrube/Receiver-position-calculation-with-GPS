@@ -1,22 +1,15 @@
 <div id="top"></div>
-[![Contributors][contributors-shield]][https://github.com/everskyrube/]
 
-<h1 align="center">Receiver-position-calculation-with-GPS </h1>
+<h1 align="center">Receiver-position-calculation-with-GPS</h1>
  
 ### Table of contents
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
+   <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#code-description">Code Description</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -28,7 +21,7 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Prerequisites
+## Prerequisites
 
 <p> This work is implemented on MATLAB R2015a, no extra toolbox is required to compile the calculation script. </p>
 <p> Note: Requires the script config.m to be in the same folder directory. </p>
@@ -36,7 +29,7 @@
   
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Code Description
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
