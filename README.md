@@ -34,6 +34,15 @@
 <p>The scripts are coded in logical order as the pseudocode below:</p>
 <div align="center" height="400"><img src="images/pseudocode.JPG"></div>
 
+<div>
+ <p>Scripts</p>
+ ```
+ calUserPosition.m
+ ```
+ <p>This file is the main file to parse the ephemeris data, calculate the estimated user position and user clock bias.</p>
+
+</div>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
