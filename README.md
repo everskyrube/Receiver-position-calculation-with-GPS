@@ -4,8 +4,7 @@
  
 ### Table of contents
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+<summary>Table of Contents</summary>
   <ol>
    <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#prerequisites">Prerequisites</a></li>
@@ -13,7 +12,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
-</details>
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -27,7 +26,7 @@
 <p> Note: Requires the script config.m to be in the same folder directory. </p>
 <p> Note: The data folder should be put in the project directory (relative path) </p>
   
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 <!-- USAGE EXAMPLES -->
 ## Code Description
 
