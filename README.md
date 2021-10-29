@@ -44,7 +44,7 @@
 <p>This file is the main file to parse the ephemeris data, calculate the estimated user position and user clock bias.</p>
 
 ```
-  config.m.m
+  config.m
 ```
 <p>This file defines all GPS Constant variables </p>
 
